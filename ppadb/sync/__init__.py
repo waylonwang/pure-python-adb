@@ -2,8 +2,8 @@ import struct
 import time
 import os
 
-from adb.protocol import Protocol
-from adb.sync.stats import S_IFREG
+from pyadb.protocol import Protocol
+from pyadb.sync.stats import S_IFREG
 
 import logging
 

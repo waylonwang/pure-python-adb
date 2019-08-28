@@ -1,10 +1,10 @@
 import re
 import time
 
-from adb import ClearError
-from adb.command import Command
+from pyadb import ClearError
+from pyadb.command import Command
 
-from adb.utils.logger import AdbLogging
+from pyadb.utils.logger import AdbLogging
 
 logger = AdbLogging.get_logger(__name__)
 

@@ -1,5 +1,5 @@
 import re
-from adb.plugins import Plugin
+from pyadb.plugins import Plugin
 
 
 class Activity:

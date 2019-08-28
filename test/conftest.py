@@ -3,8 +3,8 @@ import telnetlib
 
 import pytest
 
-from adb.client import Client as AdbClient
-from adb.device import Device as AdbDevice
+from pyadb.client import Client as AdbClient
+from pyadb.device import Device as AdbDevice
 import logging
 
 logger = logging.getLogger(__name__)

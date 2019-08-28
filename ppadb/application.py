@@ -1,4 +1,4 @@
-from adb.device import Device
+from pyadb.device import Device
 
 
 class Application:

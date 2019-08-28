@@ -1,5 +1,5 @@
-from adb.device import Device
-from adb.command import Command
+from pyadb.device import Device
+from pyadb.command import Command
 
 
 class Host(Command):

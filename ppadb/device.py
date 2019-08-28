@@ -1,20 +1,20 @@
 import re
 import os
 
-from adb.command.transport import Transport
-from adb.command.serial import Serial
+from pyadb.command.transport import Transport
+from pyadb.command.serial import Serial
 
-from adb.plugins.device.input import Input
-from adb.plugins.device.utils import Utils
-from adb.plugins.device.wm import WM
-from adb.plugins.device.traffic import Traffic
-from adb.plugins.device.stat import Stat
+from pyadb.plugins.device.input import Input
+from pyadb.plugins.device.utils import Utils
+from pyadb.plugins.device.wm import WM
+from pyadb.plugins.device.traffic import Traffic
+from pyadb.plugins.device.stat import Stat
 
-from adb.sync import Sync
+from pyadb.sync import Sync
 
-from adb.utils.logger import AdbLogging
+from pyadb.utils.logger import AdbLogging
 
-from adb import InstallError
+from pyadb import InstallError
 
 logger = AdbLogging.get_logger(__name__)
 

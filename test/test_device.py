@@ -4,7 +4,7 @@ import time
 import pytest
 import socket
 
-from adb import ClearError, InstallError
+from pyadb import ClearError, InstallError
 
 
 def test_install_uninstall_success(device):

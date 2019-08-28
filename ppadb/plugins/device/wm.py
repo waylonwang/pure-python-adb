@@ -1,7 +1,7 @@
 import re
 from collections import namedtuple
 
-from adb.plugins import Plugin
+from pyadb.plugins import Plugin
 
 Size = namedtuple("Size", [
     'width',

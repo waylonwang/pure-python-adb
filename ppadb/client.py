@@ -1,6 +1,6 @@
-from adb.command.host import Host
-from adb.connection import Connection
-from adb.utils.logger import AdbLogging
+from pyadb.command.host import Host
+from pyadb.connection import Connection
+from pyadb.utils.logger import AdbLogging
 
 logger = AdbLogging.get_logger(__name__)
 

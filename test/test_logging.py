@@ -1,4 +1,4 @@
-from adb.utils.logger import AdbLogging
+from pyadb.utils.logger import AdbLogging
 import logging
 
 def test_without_logging(capsys):

@@ -1,4 +1,4 @@
-from adb.connection import Connection
+from pyadb.connection import Connection
 
 
 class Command:
